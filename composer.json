@@ -1,0 +1,26 @@
+
+{
+    "name": "agwidarsito/SetAlgebra",
+    "description": "Abstracted Set Algebra for PHP",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["set theory", "oop", "php"],
+    "time": "2015",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Grayson-Widarsito",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*",
+        "mockery/mockery": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SetAlgebra\\": "SetAlgebra"
+        }
+    }
+}

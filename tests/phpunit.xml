@@ -1,0 +1,10 @@
+<phpunit bootstrap="bootstrap.php">
+    <testsuites>
+
+        <testsuite name="AbstractOperation">
+            <directory>Operations</directory>
+            <directory>Operations/Intersect</directory>
+            <directory>Operations/Union</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
